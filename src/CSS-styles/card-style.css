@@ -1,10 +1,10 @@
 .card {
   box-sizing: border-box;
-  width: 200px;
+  width: var(--card-width);
   border: 1px solid #f3f3f3;
   border-radius: 5px;
   padding: 32px 16px 16px;
-  background: #fff;
+  background: var(--color-white);
 }
 
 .card__image {
@@ -47,6 +47,7 @@
 .card__price-label {
   font-size: 12px;
   line-height: 18px;
+  margin: 0;
 }
 
 .card__price {
@@ -54,6 +55,7 @@
   line-height: 18px;
   font-weight: bold;
   color: var(--text-accent-color);
+  margin: 0;
 }
 
 .card__buy {
@@ -68,7 +70,7 @@
   
   font-size: 14px;
   line-height: 16px;
-  color: #fff;
+  color: var(--color-white);
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -78,5 +80,5 @@
 
 .card__buy:hover {
   color: var(--main-color);
-  background-color: #fff;
+  background-color: var(--color-white);
 }
